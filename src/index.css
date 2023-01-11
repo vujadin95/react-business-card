@@ -53,15 +53,17 @@ body {
   margin: 1.0625em auto 1.5625em auto;
   display: flex;
   justify-content: center;
-  gap: 2em;
+  gap: 1.5em;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 2.1875em;
 }
 
 .info-contact>a {
+  flex: 1 1 0;
   font-size: 0.875rem;
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 0.5em;
   font-weight: 500;
